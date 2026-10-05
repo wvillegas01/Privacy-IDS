@@ -1,0 +1,94 @@
+{
+  "CICIDS2017": {
+    "detection_anonymized": {
+      "random_forest": {
+        "accuracy": 0.9993828863237707,
+        "precision": 0.997623147849173,
+        "recall": 0.9992453576016745,
+        "f1": 0.9984335938025969,
+        "auc_roc": 0.9999693412841508,
+        "fpr": 0.0005834113049700038,
+        "n_test": 565536,
+        "n_train_used": 300000
+      },
+      "xgboost": {
+        "accuracy": 0.9994094098342103,
+        "precision": 0.9975877684616419,
+        "recall": 0.9994160505251053,
+        "f1": 0.9985010725857845,
+        "auc_roc": 0.9999860790313838,
+        "fpr": 0.0005922175133469096,
+        "n_test": 565536,
+        "n_train_used": 300000
+      },
+      "mlp": {
+        "accuracy": 0.9991300288575794,
+        "precision": 0.9977005506103421,
+        "recall": 0.9978798142142286,
+        "f1": 0.9977901743606328,
+        "auc_roc": 0.9998787044795608,
+        "fpr": 0.000563597336121966,
+        "n_test": 565536,
+        "n_train_used": 300000
+      }
+    },
+    "privacy_risk_anonymized": {
+      "top1_accuracy": 0.7334192695071579,
+      "top5_accuracy": 0.9821390680699372,
+      "majority_baseline_accuracy": 0.19741979290443049
+    },
+    "comparison_to_scenario1_naive": {
+      "risk_top1_naive": 0.7328552028518078,
+      "risk_top1_anonymized": 0.7334192695071579,
+      "risk_top1_no_identifiers_floor": 0.6949637158377185,
+      "utility_f1_xgboost_naive": 0.9998113326205899,
+      "utility_f1_xgboost_anonymized": 0.9985010725857845
+    }
+  },
+  "UNSW-NB15": {
+    "detection_anonymized": {
+      "random_forest": {
+        "accuracy": 0.9881641145665152,
+        "precision": 0.811419114604882,
+        "recall": 0.9840935320387375,
+        "f1": 0.8894532755844804,
+        "auc_roc": 0.9987301007018969,
+        "fpr": 0.011628915638059569,
+        "n_test": 411883,
+        "n_train_used": 300000
+      },
+      "xgboost": {
+        "accuracy": 0.9922453706513743,
+        "precision": 0.9250266673439326,
+        "recall": 0.9137939685884892,
+        "f1": 0.9193760096930533,
+        "auc_roc": 0.9991244623598567,
+        "fpr": 0.003765748021451497,
+        "n_test": 411883,
+        "n_train_used": 300000
+      },
+      "mlp": {
+        "accuracy": 0.9896499734147804,
+        "precision": 0.9040544722995977,
+        "recall": 0.8794219479150986,
+        "f1": 0.8915681037771843,
+        "auc_roc": 0.9984699427667855,
+        "fpr": 0.004745454823780341,
+        "n_test": 411883,
+        "n_train_used": 300000
+      }
+    },
+    "privacy_risk_anonymized": {
+      "top1_accuracy": 0.13702192127375978,
+      "top5_accuracy": 0.5498478936979676,
+      "majority_baseline_accuracy": 0.0926768038496369
+    },
+    "comparison_to_scenario1_naive": {
+      "risk_top1_naive": 0.1488869411944654,
+      "risk_top1_anonymized": 0.13702192127375978,
+      "risk_top1_no_identifiers_floor": 0.13703406064343515,
+      "utility_f1_xgboost_naive": 0.9256005872971673,
+      "utility_f1_xgboost_anonymized": 0.9193760096930533
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "CICIDS2017": {
+    "s1_top1": 0.7328552028518078,
+    "s2_no_srcblock_top1": 0.7267211990041306,
+    "s2_full_top1": 0.7334192695071579,
+    "isolated_generalization_effect_pp": 0.006134003847677261,
+    "incremental_srcblock_contribution_pp": 0.006698070503027287
+  },
+  "UNSW-NB15": {
+    "s1_top1": 0.1488869411944654,
+    "s2_no_srcblock_top1": 0.13777456219363265,
+    "s2_full_top1": 0.13702192127375978,
+    "isolated_generalization_effect_pp": 0.011112379000832756,
+    "incremental_srcblock_contribution_pp": -0.0007526409198728712
+  }
+}

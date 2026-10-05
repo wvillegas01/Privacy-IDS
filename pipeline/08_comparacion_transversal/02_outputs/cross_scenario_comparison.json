@@ -1,0 +1,304 @@
+{
+  "CICIDS2017": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "f1_by_scenario": {
+      "S1_naive": [
+        0.9998113326205899,
+        0.9997843878861927,
+        0.9997799127735931,
+        0.9998203393789132,
+        0.9997889035109389
+      ],
+      "S2_anonymized": [
+        0.9985010725857845,
+        0.9985637858604718,
+        0.9984607583121295,
+        0.9984474140019923,
+        0.9984158966787681
+      ],
+      "S3_reduced": [
+        0.9709483857500077,
+        0.9710452259966124,
+        0.9711232701497575,
+        0.9712449842027382,
+        0.9709279100940071
+      ],
+      "S0_behavioral_only": [
+        0.9972358088400269,
+        0.9973027676924527,
+        0.9971684862844348,
+        0.9972493818961765,
+        0.9972314581734804
+      ],
+      "S4_dp_clipped_eps100": [
+        0.4560693455353978,
+        0.4573787993774359,
+        0.4581942815910526,
+        0.45930867815870324,
+        0.45969512899870296
+      ]
+    },
+    "risk_by_scenario": {
+      "S1_naive": [
+        0.7328552028518078,
+        0.7321125445594976,
+        0.732662465342613,
+        0.73172176483902,
+        0.7318420047530131
+      ],
+      "S2_anonymized": [
+        0.7334192695071579,
+        0.7333220166355457,
+        0.7340858937362078,
+        0.7336261528885871,
+        0.7334015871668647
+      ],
+      "S3_reduced": [
+        0.6023365444463306,
+        0.5986692270695411,
+        0.5983403355400894,
+        0.5990122644712272,
+        0.6011801193911617
+      ],
+      "S0_behavioral_only": [
+        0.6949637158377185,
+        0.6950751145815651,
+        0.6955772930458892,
+        0.6950096899224806,
+        0.696105995020653
+      ],
+      "S4_dp_clipped_eps100": [
+        0.26017265037062187,
+        0.2598720505856391,
+        0.25941584620607705,
+        0.2572568324562893,
+        0.2574601793696599
+      ]
+    },
+    "friedman_f1": {
+      "statistic": 15.0,
+      "p_value": 0.0018166489665723214
+    },
+    "friedman_risk": {
+      "statistic": 15.0,
+      "p_value": 0.0018166489665723214
+    },
+    "pairwise_wilcoxon_vs_S1": {
+      "S1_vs_S2_anonymized": {
+        "f1_wilcoxon_stat": 0.0,
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_wilcoxon_stat": 0.0,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      },
+      "S1_vs_S3_reduced": {
+        "f1_wilcoxon_stat": 0.0,
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_wilcoxon_stat": 0.0,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      },
+      "S1_vs_S4_dp_eps1": {
+        "f1_wilcoxon_stat": 0.0,
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_wilcoxon_stat": 0.0,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      }
+    },
+    "friedman_f1_5scenarios": {
+      "statistic": 20.0,
+      "p_value": 0.0004993992273873336
+    },
+    "friedman_risk_5scenarios": {
+      "statistic": 20.0,
+      "p_value": 0.0004993992273873336
+    },
+    "kendall_w_5scenarios": {
+      "f1": 1.0,
+      "risk": 1.0
+    },
+    "pairwise_clean_axis_isolated": {
+      "S1_vs_S2_identifier_axis": {
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      },
+      "S0_vs_S3_behavioral_axis": {
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      },
+      "S0_vs_S4_behavioral_axis": {
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      }
+    },
+    "s4_epsilon_total": 100,
+    "s4_d_numeric_features": 78
+  },
+  "UNSW-NB15": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "f1_by_scenario": {
+      "S1_naive": [
+        0.9256005872971673,
+        0.9272593681116826,
+        0.9258053025291334,
+        0.9273324905183312,
+        0.9251074434809144
+      ],
+      "S2_anonymized": [
+        0.9193760096930533,
+        0.9200364852538766,
+        0.9194194956106967,
+        0.9201549798678113,
+        0.9191433009906538
+      ],
+      "S3_reduced": [
+        0.9044461680886732,
+        0.9042430906092258,
+        0.9034371535127508,
+        0.9025942980800684,
+        0.9020289855072464
+      ],
+      "S0_behavioral_only": [
+        0.9170030272452069,
+        0.9157612815200363,
+        0.9161672103785752,
+        0.9175953301493442,
+        0.91575536654516
+      ],
+      "S4_dp_clipped_eps100": [
+        0.7615785706982926,
+        0.7587604535426608,
+        0.7660050321498463,
+        0.7651762069667957,
+        0.7640099943909031
+      ]
+    },
+    "risk_by_scenario": {
+      "S1_naive": [
+        0.1488869411944654,
+        0.1497585479371569,
+        0.14961530337498755,
+        0.14826297759315146,
+        0.1476195910003569
+      ],
+      "S2_anonymized": [
+        0.13702192127375978,
+        0.13734240063318953,
+        0.13764831274900882,
+        0.137456510708138,
+        0.13695879655144785
+      ],
+      "S3_reduced": [
+        0.13338496611901923,
+        0.133508787689708,
+        0.13354277792479904,
+        0.13288239621445896,
+        0.13284840597936792
+      ],
+      "S0_behavioral_only": [
+        0.13703406064343515,
+        0.13796150848663333,
+        0.1370583393827859,
+        0.13639310192457565,
+        0.13619158838796455
+      ],
+      "S4_dp_clipped_eps100": [
+        0.11446454454298916,
+        0.11529002168091423,
+        0.11592126890403343,
+        0.11553280907442162,
+        0.11677102478130925
+      ]
+    },
+    "friedman_f1": {
+      "statistic": 15.0,
+      "p_value": 0.0018166489665723214
+    },
+    "friedman_risk": {
+      "statistic": 15.0,
+      "p_value": 0.0018166489665723214
+    },
+    "pairwise_wilcoxon_vs_S1": {
+      "S1_vs_S2_anonymized": {
+        "f1_wilcoxon_stat": 0.0,
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_wilcoxon_stat": 0.0,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      },
+      "S1_vs_S3_reduced": {
+        "f1_wilcoxon_stat": 0.0,
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_wilcoxon_stat": 0.0,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      },
+      "S1_vs_S4_dp_eps1": {
+        "f1_wilcoxon_stat": 0.0,
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_wilcoxon_stat": 0.0,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      }
+    },
+    "friedman_f1_5scenarios": {
+      "statistic": 20.0,
+      "p_value": 0.0004993992273873336
+    },
+    "friedman_risk_5scenarios": {
+      "statistic": 19.040000000000006,
+      "p_value": 0.0007718488689673323
+    },
+    "kendall_w_5scenarios": {
+      "f1": 1.0,
+      "risk": 0.9520000000000003
+    },
+    "pairwise_clean_axis_isolated": {
+      "S1_vs_S2_identifier_axis": {
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      },
+      "S0_vs_S3_behavioral_axis": {
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      },
+      "S0_vs_S4_behavioral_axis": {
+        "f1_p": 0.0625,
+        "f1_significant_bonferroni": false,
+        "risk_p": 0.0625,
+        "risk_significant_bonferroni": false
+      }
+    },
+    "s4_epsilon_total": 100,
+    "s4_d_numeric_features": 38
+  }
+}

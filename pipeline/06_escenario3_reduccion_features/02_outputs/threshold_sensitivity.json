@@ -1,0 +1,48 @@
+{
+  "CICIDS2017": [
+    {
+      "threshold": 0.25,
+      "n_removed": 3,
+      "achieved_cumulative": 0.2643224112265521,
+      "f1": 0.9717122426214062,
+      "risk": 0.6223971595088553
+    },
+    {
+      "threshold": 0.5,
+      "n_removed": 14,
+      "achieved_cumulative": 0.5103629925683968,
+      "f1": 0.9709483857500077,
+      "risk": 0.6023365444463306
+    },
+    {
+      "threshold": 0.75,
+      "n_removed": 30,
+      "achieved_cumulative": 0.7628037833696542,
+      "f1": 0.9336071443815775,
+      "risk": 0.555073417076897
+    }
+  ],
+  "UNSW-NB15": [
+    {
+      "threshold": 0.25,
+      "n_removed": 4,
+      "achieved_cumulative": 0.27208240143937307,
+      "f1": 0.9136804942630186,
+      "risk": 0.1384009536688817
+    },
+    {
+      "threshold": 0.5,
+      "n_removed": 10,
+      "achieved_cumulative": 0.5219364584768569,
+      "f1": 0.9044461680886732,
+      "risk": 0.13338496611901923
+    },
+    {
+      "threshold": 0.75,
+      "n_removed": 19,
+      "achieved_cumulative": 0.7615133948383849,
+      "f1": 0.808474921151694,
+      "risk": 0.118341859217302
+    }
+  ]
+}

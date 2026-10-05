@@ -1,0 +1,34 @@
+{
+  "name": "UNSW-NB15-raw",
+  "n_rows": 2540047,
+  "n_cols": 49,
+  "duplicate_rows": 480632,
+  "duplicate_pct": 0.18922169550405957,
+  "label_distribution": {
+    "0": 2218764,
+    "1": 321283
+  },
+  "attack_cat_distribution": {
+    "Normal": 2218764,
+    "Generic": 215481,
+    "Exploits": 44525,
+    "Fuzzers": 24246,
+    "DoS": 16353,
+    "Reconnaissance": 13987,
+    "Analysis": 2677,
+    "Backdoor": 1795,
+    "Shellcode": 1511,
+    "Backdoors": 534,
+    "Worms": 174
+  },
+  "identifier_cardinality": {
+    "srcip": 44,
+    "sport": 129124,
+    "dstip": 47,
+    "dsport": 64630
+  },
+  "cols_with_nan": {
+    "ct_flw_http_mthd": 1348145,
+    "is_ftp_login": 1429879
+  }
+}
