@@ -1,0 +1,21 @@
+{
+  "title": "Privacy-IDS: Code and derived results for measuring host re-identification risk in intrusion detection datasets",
+  "description": "Analysis code and derived results accompanying the manuscript Measuring Host Re-identification Risk in Intrusion Detection Datasets: An Attack-Based Comparison of Privacy Techniques. Includes Python scripts for data inventory, preprocessing, re-identification attacks, privacy transformations, cross-scenario comparisons, robustness checks, and figure generation, with derived JSON results. The raw CICIDS2017 and UNSW-NB15 benchmark datasets are not redistributed and must be obtained from their original providers. The clipped Laplace perturbation scenario uses a nominal composed budget and does not provide a formal differential privacy guarantee for the joint release.",
+  "creators": [
+    {"name": "Jaramillo-Alcazar, Angel"},
+    {"name": "Mera Navarrete, Aracely"},
+    {"name": "Gutierrez, Rommel"},
+    {"name": "Villegas-Ch, William"}
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": ["intrusion detection", "host re-identification", "privacy", "CICIDS2017", "UNSW-NB15", "anonymization"],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/wvillegas01/Privacy-IDS",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
